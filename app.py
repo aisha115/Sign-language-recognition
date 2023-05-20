@@ -67,7 +67,7 @@ class Application:
         test_image = cv2.resize(test_image, (128,128))
         result = self.loaded_model.predict(test_image.reshape(1, 128, 128, 1))
         index = np.argmax(result)
-        self.current_symbol = self.classes[index]
+        self.current_symbol = self.classes[index-1]
     def destructor(self):
         print("Closing Application...")
         self.root.destroy()
