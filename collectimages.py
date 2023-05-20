@@ -37,23 +37,23 @@ while True:
              'g': len(os.listdir(directory+"/G")),
              'h': len(os.listdir(directory+"/H")),
              'i': len(os.listdir(directory+"/I")),
-            #  'j': len(os.listdir(directory+"/J")),
+             'j': len(os.listdir(directory+"/J")),
              'k': len(os.listdir(directory+"/K")),
              'l': len(os.listdir(directory+"/L")),
              'm': len(os.listdir(directory+"/M")),
              'n': len(os.listdir(directory+"/N")),
              'o': len(os.listdir(directory+"/O")),
-            #  'p': len(os.listdir(directory+"/P")),
-            #  'q': len(os.listdir(directory+"/Q")),
+             'p': len(os.listdir(directory+"/P")),
+             'q': len(os.listdir(directory+"/Q")),
              'r': len(os.listdir(directory+"/R")),
              's': len(os.listdir(directory+"/S")),
              't': len(os.listdir(directory+"/T")),
              'u': len(os.listdir(directory+"/U")),
              'v': len(os.listdir(directory+"/V")),
              'w': len(os.listdir(directory+"/W")),
-            #  'x': len(os.listdir(directory+"/X")),
-            #  'y': len(os.listdir(directory+"/Y")),
-            #  'z': len(os.listdir(directory+"/Z"))
+             'x': len(os.listdir(directory+"/X")),
+             'y': len(os.listdir(directory+"/Y")),
+             'z': len(os.listdir(directory+"/Z"))
              }
 
     x1 = int(0.5*frame.shape[1])
